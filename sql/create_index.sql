@@ -1,0 +1,15 @@
+-- create index for checkin table
+CREATE INDEX INDEX_CHECKIN_NUMBER ON CHECKIN (count);
+-- create index for category table
+CREATE INDEX INDEX_CATEGORY_NAME ON CATEGORY (name);
+-- create index for subcategory table
+CREATE INDEX INDEX_SUBCATEGORY_NAME ON SUBCATEGORY (name);
+-- create index for yelp_user table
+CREATE INDEX INDEX_USER_MEMBERSINCE ON YELP_USER (yelping_since);
+CREATE INDEX INDEX_USER_REVIEWCOUNT ON YELP_USER (review_count);
+CREATE INDEX INDEX_USER_FRIENDS ON YELP_USER (friend_count);
+CREATE INDEX INDEX_USER_STAR ON YELP_USER (average_stars);
+-- create index for review table
+CREATE INDEX INDEX_REVIEW_DATE ON REVIEW (review_date);
+CREATE INDEX INDEX_REVIEW_STAR ON REVIEW (stars);
+CREATE INDEX INDEX_REVIEW_VOTE ON REVIEW (votes);
