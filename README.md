@@ -1,4 +1,5 @@
-# YelpChallengeDatabaseAndGUI
+# Search Service Application
+
 1. create table (create_table.sql)
 2. import both populate.java and hw3.java into java IDE;
 3. add external libraries: 
